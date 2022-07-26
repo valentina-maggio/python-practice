@@ -6,8 +6,8 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.
 
 
-print("Welcome to the tip calculator.")
-bill = input("What was the total bill? ")
+print("Welcome to the tip calculator!")
+bill = input("What was the total bill? £")
 tip = input("What percentage tip would you like to give? 10, 12, or 15? ")
 people = input("How many people to split the bill? ")
 
@@ -15,4 +15,4 @@ tip_calculator = 1 + float(tip) / 100
 amount_per_person = (float(bill) / int(people)) * tip_calculator
 final_amount = round(amount_per_person, 2)
 
-print(f"Each person should pay {final_amount}")
+print(f"Each person should pay: £{final_amount}")
