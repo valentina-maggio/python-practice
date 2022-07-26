@@ -13,6 +13,6 @@ people = input("How many people to split the bill? ")
 
 tip_calculator = 1 + float(tip) / 100
 amount_per_person = (float(bill) / int(people)) * tip_calculator
-final_amount = round(amount_per_person, 2)
+final_amount = format((round(amount_per_person, 2)), '.2f')
 
-print(f"Each person should pay: £{final_amount}")
+print(f"Each person should pay {final_amount}")
