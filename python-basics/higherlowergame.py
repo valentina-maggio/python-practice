@@ -28,7 +28,7 @@ def play_game():
             f"from {celebs_to_compare[0]['country']}")
         print(vs)
         print(
-            f"Compare A: {celebs_to_compare[1]['name']}, a {celebs_to_compare[1]['description']}, "
+            f"Compare B: {celebs_to_compare[1]['name']}, a {celebs_to_compare[1]['description']}, "
             f"from {celebs_to_compare[1]['country']}")
 
         user_answer = input("Who has more followers? Type 'A' or 'B': ")
